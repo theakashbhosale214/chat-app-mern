@@ -29,7 +29,10 @@ const Login = () => {
           </a>
 
           <div>
-            <button className='btn btn-block btn-sm mt-2 bg-blue-500 text-black'>Login</button>
+            {/* <button className='btn btn-block btn-sm mt-2 bg-blue-500 text-black'>Login</button> */}
+            <button type='submit' className='btn btn-block btn-sm mt-2 bg-sky-500 text-white'>
+            Login
+            </button>
           </div>
         </form>
       </div>
@@ -38,3 +41,4 @@ const Login = () => {
 }
 
 export default Login
+
